@@ -6,6 +6,14 @@
 - Containment Hash algorithm implemented in C++
 - Mapper function
 
+####	Files:
+- Generate Simulated Data: ```generate_data.py```
+- Min Hash and Containment Hash algorithms:  ```hash.cpp, hash.h```
+- Comparing both approaches: ```main.cpp```
+- Plotting graphs: ```draw_graphs.py```
+- Mapper function: ```mapper.cpp```
+- Scripts: ```run.sh, query.sh```
+
 ###	Applications in real life: 
 -	Taxonomic classification
 -	To detect presence or absence of genome in metagenomics sample
