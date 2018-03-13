@@ -25,11 +25,11 @@
 ./run.sh data/file3.txt data/file4.txt 20 200 0.01 2 150 1000
 
 ./run.sh data/file1.txt data/file2.txt 18 1000 0.02 3 15 1000
+```
 
 Sample output: 
 
 ![output1](https://raw.githubusercontent.com/pponakala/longreadsmapping/master/images/img1.png)
-```
 
 
 3. Compare both approaches. Reproduce the graphs in the report.
