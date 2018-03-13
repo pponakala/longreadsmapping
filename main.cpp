@@ -99,7 +99,8 @@ int main(int argc, char *argv[]) {
   }
 
   //-----------------------------------------------------------
-  //compare both approaches:
+  //Compare both approaches:
+  //Compare by increasing the kmer size
   ofstream outfile1, outfile2, outfile3, outfile4, outfile5, outfile6;
   if (relative_error_hash){
     goto compare_hash_count;
@@ -169,6 +170,7 @@ int main(int argc, char *argv[]) {
   if (!relative_error_hash) return 1;
 
   compare_hash_count:
+  //Compare by increasing the number of hash functions
 
   outfile1.open("results/min.txt");
   outfile2.open("results/containment.txt");
