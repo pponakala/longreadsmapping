@@ -13,15 +13,14 @@
 
 ### Instructions:
 
-1. clone repo and type following:
-
-
-2. Estimate Jaccard Index by running Min Hash and Containment Min Hash.
+1. Estimate Jaccard Index by running Min Hash and Containment Min Hash.
 
 ```bash
 ./run.sh <file1> <file2> <kmer_size> <hash_functions>
  <false_positive_rate> <number_appended_to_results_files> <order_of_len_A> <order_of_len_B>
+ ```
 
+```bash
 ./run.sh data/file3.txt data/file4.txt 20 200 0.01 2 150 1000
 
 ./run.sh data/file1.txt data/file2.txt 18 1000 0.02 3 15 1000
@@ -51,7 +50,8 @@ Sample output:
 ```bash
 ./query.sh <long_reads_file> <reference_genome_file> <threshold>
  <kmer_size> <hash_functions> <false_positive_rate> <number_of_long_reads_to_generate>
-
+```
+```bash
 ./query.sh data/reference.txt data/longreads.txt 0.05 18 100 0.01 5
 
 ./query.sh data/reference.txt data/longreads.txt 0.05 20 200 0.02 10
