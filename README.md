@@ -45,7 +45,7 @@ Sample output:
 
 ![output3](https://raw.githubusercontent.com/pponakala/longreadsmapping/master/images/img3.png)
 
-4. Mapping long reads: Generate reference genome and long reads. Map long reads to reference genome
+4. Mapping long reads: Script generates reference genome and long reads and then maps long reads to reference genome
   if they have similarity higher than threshold.
 ```bash
 ./query.sh <long_reads_file> <reference_genome_file> <threshold>
