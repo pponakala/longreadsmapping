@@ -70,3 +70,16 @@ Sample output:
 ![output4](https://raw.githubusercontent.com/pponakala/longreadsmapping/master/images/img4.png)
 
 ![output5](https://raw.githubusercontent.com/pponakala/longreadsmapping/master/images/img5.png)
+
+####	References:
+
+-	Paper on Containment Min Hash approach: https://www.biorxiv.org/content/biorxiv/early/2017/09/04/184150.full.pdf
+-	Paper's github repo: https://github.com/dkoslicki/MinHashMetagenomics
+-	Mining Massive Data sets: http://infolab.stanford.edu/~ullman/mmds/ch3.pdf
+-	Hash Functions generation https://www.eecs.harvard.edu/~michaelm/postscripts/rsa2008.pdf
+-	Bloom filter http://www.partow.net/programming/bloomfilter/index.html
+-	Bloom filter https://archive.codeplex.com/?p=libbloom 
+-	Murmur Hash3 https://github.com/aappleby/smhasher
+-	Mapping reads http://sfg.stanford.edu/mapping.html
+-	C++ notes: https://www.uow.edu.au/~lukes/TEXTBOOK/notes-cpp/
+
